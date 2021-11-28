@@ -368,7 +368,7 @@ while i==1:
 #3 angles not given
         elif query=="abc":
         	alpha=m.degrees(m.acos((a**2-b**2-c**2)/(-2*b*c)))
-        	beta=m.degrees(m.acos((b**2-c**2-c**2)/(-2*a*c)))
+        	beta=m.degrees(m.acos((b**2-a**2-c**2)/(-2*a*c)))
         	gamma=m.degrees(m.acos((c**2-a**2-b**2)/(-2*a*b)))
         	A=0.5*a*b*m.sin(m.radians(gamma))
         	print("α=", alpha)
